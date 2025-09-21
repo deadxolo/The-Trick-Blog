@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Button } from './ui/button';
 import { Sheet, SheetContent, SheetTrigger } from './ui/sheet';
 import { Menu, Search, BookOpen } from 'lucide-react';
+// import { Badge } from './ui/badge';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);

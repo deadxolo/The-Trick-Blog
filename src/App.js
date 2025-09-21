@@ -9,6 +9,8 @@ import BlogList from "./pages/BlogList";
 import About from "./pages/About";
 import TechStack from "./pages/TechStack";
 import { Toaster } from "./components/ui/toaster";
+// import { Contact } from "lucide-react";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -23,7 +25,7 @@ function App() {
             <Route path="/categories" element={<BlogList />} />
             <Route path="/tech-stack" element={<TechStack />} />
             <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<div className="min-h-screen flex items-center justify-center"><h1 className="text-4xl font-bold text-slate-900">Contact Page Coming Soon</h1></div>} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
         <Footer />
